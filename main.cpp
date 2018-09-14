@@ -1,15 +1,16 @@
 #include <iostream>
-
-int main()
+/*
+ * 使用while循环将50到100的整数相加
+ */
+ int main()
 {
-    std::cout << "Enter 2 numbers:" << std::endl;
-    int a1 = 0, a2 = 0;
-    std::cin >> a1 >> a2;
-    std::cout << "The product of ";
-    std::cout << a1;
-    std::cout << " and ";
-    std::cout << a2;
-    std::cout << " is ";
-    std::cout << a1 * a2 <<std::endl;
+     int sum = 0, change = 50;
+     while (change <= 100){
+         sum += change;
+         ++change;
+     }
+     std::cout << " The sum of 50 to 100 is "
+                    << sum
+                    << std::endl;
     return 0;
 }
