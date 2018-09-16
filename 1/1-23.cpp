@@ -1,3 +1,6 @@
+//
+// Created by cheny on 2018/9/16.
+//
 #include <iostream>
 #include "Sales_item.h"
 
@@ -12,15 +15,16 @@ int main()
                 ++current_isbn;     //将isbn计数器值+1
             } else{     //若不相同，即刻打印前一个isbn的个数
                 std::cout << book_now.isbn() << "有"
-                                << current_isbn << "条销售记录" << std::endl;
+                          << current_isbn << "条销售记录" << std::endl;
                 book_now = book_rest;   //记住新的isbn值
                 current_isbn = 1;   //重置计数器
             }
         }
         //打印最后一条记录中isbn的销售次数
         std::cout << book_now.isbn() << "有"
-                        << current_isbn << "条销售记录" << std::endl;
+                  << current_isbn << "条销售记录" << std::endl;
     }
 
     return 0;
 }
+
