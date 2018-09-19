@@ -1,11 +1,18 @@
 #include <iostream>
 
+
 int main()
 {
-    int i = 42;
-    int *p1 = &i;
-    *p1 = *p1 * *p1;
-    std::cout << *p1 << std::endl;
+    const double a = 3.14;
+    const double b = 3.11;
+
+    const double *const fuck_it = &a;
+
+    const double *screw_it = &a;
+
+    double x = *fuck_it;
+
+    double y = *screw_it;
 
     return 0;
 }
