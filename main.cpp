@@ -1,9 +1,18 @@
 #include <iostream>
-using std::cin; using std::cout;
-using std::endl;
+#include <vector>
+
+using std::vector;  using std::cout;
+
+vector<int> a;
 
 int main(){
-    unsigned char a = 'q';
-    a << 6;
-    cout << a << endl;
+    for (int i = 0; i != 100; ++i){
+        a.push_back(i);
+    }
+
+    for (auto j : a){
+        cout << j << " ";
+    }
+
+    return 0;
 }
