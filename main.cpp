@@ -26,6 +26,8 @@ int main(){
     for (auto &c : fpv){
         dtm(a, b, c);
     }
+
+    return EXIT_SUCCESS;
 }
 
 int tiadd(int x, int y){
