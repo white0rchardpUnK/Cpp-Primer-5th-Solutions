@@ -12,16 +12,13 @@ class Sales_data {
     friend std::istream &read(std::istream &, Sales_data &);
     friend std::ostream &print(std::ostream &, const Sales_data &);
 public:
-    Sales_data(): Sales_data(" ", 0, 0){std::cout << "Delegating Constructor" << std::endl;}
-    Sales_data(double p):bookNo(" "), units_sold(0), revenue(0){std::cout << "Sales_data(double p):bookNo(\" \")" << std::endl;};
-    Sales_data(const std::string &s):bookNo(s){std::cout << "Sales_data(const std::string &s):" << std::endl;};
+    Sales_data(): Sales_data(" ", 0, 0){}
+    Sales_data(double p):bookNo(" "), units_sold(0), revenue(0){};
+    Sales_data(const std::string &s):bookNo(s){};
     Sales_data(const std::string &s, unsigned long n, double p):
-                bookNo(s), units_sold(n),revenue(p*n){std::cout << "Sales_data(const std::string &s, unsigned long n, double p):" << std::endl;};
+                bookNo(s), units_sold(n),revenue(p*n){};
     //提供cin作为接受istream&参数的构造函数的默认实参
-    Sales_data(std::istream &is) {
-        read(is, *this);
-        std::cout << "Sales_data(std::istream &is)" << std::endl;
-    }
+    Sales_data(std::istream &is) {read(is, *this);}
     std::string isbn() const {
         return bookNo;
     }
