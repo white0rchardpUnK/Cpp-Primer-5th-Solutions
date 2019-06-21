@@ -7,8 +7,6 @@ using std::string;
 using std::allocator; using std::uninitialized_copy;
 #include <utility>
 using std::pair;
-#include <algorithm>
-using std::for_each;
 
 //类vector类内存分配策略的简化实现
 class StrVec {
@@ -39,6 +37,8 @@ private:
     string *cap;            //指向数组尾后位置的指针
 };
 
+allocator<string> StrVec::alloc;
+
 inline
 void StrVec::push_back(const string &s) {
     chk_n_alloc();  //确保有空间容纳新元素
@@ -60,8 +60,8 @@ void StrVec::free() {
     //不能传递给deallocate一个空指针，如果elements为空指针，函数什么也不做
     if (elements){
         //逆序销毁旧元素
-        for_each(elements, first_free,
-                [](string &p){alloc.destroy(&p);});
+        for (auto p = first_free; p != elements;)
+            alloc.destroy(--p);
         alloc.deallocate(elements, cap - elements);
     }
 }
