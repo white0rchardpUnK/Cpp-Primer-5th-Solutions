@@ -264,6 +264,7 @@ BlobPtr<T>& BlobPtr<T>::operator+=(int n) {
     return *this;
 }
 
+
 template <typename T>
 BlobPtr<T>& BlobPtr<T>::operator-=(int n) {
     curr -= n;
