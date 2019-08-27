@@ -1,0 +1,9 @@
+g++ -W -Wall -I.. -I../14 -c memFN-bind.cc -o memFN-bind.o
+memFN-bind.cc: In function ‘int main()’:
+memFN-bind.cc:69:53: error: no match for call to ‘(std::tr1::_Bind_result<bool, std::tr1::_Mem_fn<bool (std::basic_string<char>::*)()const>(std::tr1::_Placeholder<1>)>) (const std::string*)’
+/usr/lib/gcc/i686-pc-cygwin/4.5.3/include/c++/tr1/functional:1300:9: note: candidates are: result_type std::tr1::_Bind_result<_Result, _Functor(_Bound_args ...)>::operator()(_Args& ...) [with _Args = {const std::basic_string<char>*}, _Result = bool, _Functor = std::tr1::_Mem_fn<bool (std::basic_string<char>::*)()const>, _Bound_args = {std::tr1::_Placeholder<1>}, result_type = bool]
+/usr/lib/gcc/i686-pc-cygwin/4.5.3/include/c++/tr1/functional:1308:9: note:                 result_type std::tr1::_Bind_result<_Result, _Functor(_Bound_args ...)>::operator()(_Args& ...) const [with _Args = {const std::basic_string<char>*}, _Result = bool, _Functor = std::tr1::_Mem_fn<bool (std::basic_string<char>::*)()const>, _Bound_args = {std::tr1::_Placeholder<1>}, result_type = bool]
+/usr/lib/gcc/i686-pc-cygwin/4.5.3/include/c++/tr1/functional:1316:9: note:                 result_type std::tr1::_Bind_result<_Result, _Functor(_Bound_args ...)>::operator()(_Args& ...) volatile [with _Args = {const std::basic_string<char>*}, _Result = bool, _Functor = std::tr1::_Mem_fn<bool (std::basic_string<char>::*)()const>, _Bound_args = {std::tr1::_Placeholder<1>}, result_type = bool]
+/usr/lib/gcc/i686-pc-cygwin/4.5.3/include/c++/tr1/functional:1324:9: note:                 result_type std::tr1::_Bind_result<_Result, _Functor(_Bound_args ...)>::operator()(_Args& ...) const volatile [with _Args = {const std::basic_string<char>*}, _Result = bool, _Functor = std::tr1::_Mem_fn<bool (std::basic_string<char>::*)()const>, _Bound_args = {std::tr1::_Placeholder<1>}, result_type = bool]
+../GNU_makefile_template:44: recipe for target `memFN-bind.o' failed
+make: *** [memFN-bind.o] Error 1

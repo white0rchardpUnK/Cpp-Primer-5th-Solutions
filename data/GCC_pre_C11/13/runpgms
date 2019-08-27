@@ -1,0 +1,8 @@
+
+../noinput FolderMain.exe HasPtrUseCount.exe \
+		   HasPtrValueLike.exe \
+		   moveHP.exe serial.exe \
+		   StrFolderMain.exe substr.exe useStrVec.exe
+
+# c++ 11 files:
+# ../noinput copyNoMove.exe

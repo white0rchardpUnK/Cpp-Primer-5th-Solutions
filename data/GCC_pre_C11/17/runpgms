@@ -1,0 +1,13 @@
+echo "badgetc: " && ./badgetc.exe < data/skipws
+echo "bits: " && ./bits.exe < data/bits
+echo "findbook: " && ./findbook.exe data/store*
+echo "game: " && ./game.exe < data/game
+echo "getc: " && ./getc.exe < data/skipws
+echo "getput: " && ./getput.exe < data/skipws
+echo "no-skipws: " && ./no-skipws.exe < data/no-skipws
+echo "skipws: " && ./skipws.exe < data/skipws
+
+
+../noinput manips.exe point.exe \
+		   prec.exe  rand1.exe rand2.exe rand4.exe \
+		   rand6.exe seed.exe seek.exe setw.exe tuple.exe 
