@@ -1,10 +1,13 @@
 # Introduction
 
+![](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue)
+
 Personal solutions for C++ Primer 5th edition exercises, basically cover the 95% exercise. Only some ambiguous and superfluous ones has been left. All the source codes and answers were put into the markdown file. For each chapter and its exercises, only use the actual knowledge and skill, so there won't be any advance abilities requirement for present code. Also, some header files and data could be found in the corresponding directory.
 
 # Limitations
 
-- Comments and answers are written by Chinese Simplified, so if you are unfamiliar with it, you may need to find some other solutions that fits your language.(Or see the Recommendations)
+- Comments and answers(statement without code) are written by Chinese Simplified, so if you are unfamiliar with it, you may need to find some other solutions that fits your language.(Or see the [Recommendations](#recommendations))
+- There won't be any instructions for the knowledge from book, if you puzzled, you should jump into the communities(like [Stack Overflow](https://stackoverflow.com/)) to solve your problem, or just review the books.
 
 # Compiler Requirements
 
@@ -16,26 +19,29 @@ Personal solutions for C++ Primer 5th edition exercises, basically cover the 95%
 
 # Table of Contents
 
-- [Chapter 1 Getting Started](./1/README.md)
+- [Chapter 1 Getting Started](./chapters/1/README.md)
+- [Chapter 2 Variables and Basic Types](./chapters/2/README.md)
+- [Chapter 3 Strings, Vectors, and Arrays](./chapters/3/README.md)
+- [Chapter 4 Expressions](./chapters/4/README.md)
+- [Chapter 5 Statements](./chapters/5/README.md)
+- [Chapter 6 Functions](./chapters/6/README.md)
+- [Chapter 7 Classes](./chapters/7/README.md)
+- [Chapter 8 The IO Library](./chapters/8/README.md)
+- [Chapter 9 Sequential Containers](./chapters/9/README.md)
+- [Chapter 10 Generic Algorithms](./chapters/10/README.md)
+- [Chapter 11 Associative Containers](./chapters/11/README.md)
+- [Chapter 12 Dynamic Memory](./chapters/12/README.md)
+- [Chapter 13 Copy Control](./chapters/13/README.md)
+- [Chapter 14 Overloaded Operations and Conversions](./chapters/14/README.md)
+- [Chapter 15 Object-Oriented Programming](./chapters/15/README.md)
+- [Chapter 16 Templates and Generic Programming](./chapters/16/README.md)
+- [Chapter 17 Specialized Library Facilities](./chapters/17/README.md)
+- [Chapter 18 Tools for Large Programs](./chapters/18/README.md)
+- [Chapter 19 Specialized Tools and Techniques](./chapters/19/README.md)
 
-- Chapter 2 Variables and Basic Types
-- Chapter 3 Strings, Vectors, and Arrays
-- Chapter 4 Expressions
-- Chapter 5 Statements
-- Chapter 6 Functions
-- Chapter 7 Classes
-- Chapter 8 The IO Library
-- Chapter 9 Sequential Containers
-- Chapter 10 Generic Algorithms
-- Chapter 11 Associative Containers
-- Chapter 12 Dynamic Memory
-- Chapter 13 Copy Control
-- Chapter 14 Overloaded Operations and Conversions
-- Chapter 15 Object-Oriented Programming
-- Chapter 16 Templates and Generic Programming
-- Chapter 17 Specialized Library Facilities
-- Chapter 18 Tools for Large Programs
-- Chapter 19 Specialized Tools and Techniques
+# Contribution
+
+If you have better solution for any solved exercise, or reasonable answer for any unsolved exercise, it is welcome to open an issue or pull requests. The contributed information would be added if you demand.
 
 # License
 

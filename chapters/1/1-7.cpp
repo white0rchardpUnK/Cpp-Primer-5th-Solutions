@@ -1,6 +1,3 @@
-//
-// Created by raymain on 18-9-14.
-//
 #include <iostream>
 /*
  * 观察不正确的嵌套注释的编译器错误信息

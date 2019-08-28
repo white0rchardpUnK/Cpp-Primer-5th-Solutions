@@ -1,6 +1,3 @@
-//
-// Created by cheny on 2018/9/16.
-//
 #include <iostream>
 
 int main()

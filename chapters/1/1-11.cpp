@@ -1,6 +1,3 @@
-//
-// Created by cheny on 2018/9/14.
-//
 #include <iostream>
 /*
  * 提示用户输入两个数，打印此两数所指定范围内的所有整数

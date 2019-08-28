@@ -1,6 +1,3 @@
-//
-// Created by raymain on 18-9-14.
-//
 #include <iostream>
 /*
  * 使用while循环将50到100的整数相加

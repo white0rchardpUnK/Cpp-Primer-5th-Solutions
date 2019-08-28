@@ -1,7 +1,3 @@
-//
-// Created by raymain on 18-9-14.
-//
-
 #include <iostream>
 
 int main()
