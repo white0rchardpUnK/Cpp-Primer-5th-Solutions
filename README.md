@@ -8,7 +8,7 @@ Personal solutions for C++ Primer 5th edition exercises, basically cover the 95%
 
 - Comments and answers(statement without code) are written by Chinese Simplified, so if you are unfamiliar with it, you may need to find some other solutions that fits your language.(Or see the [Recommendations](#recommendations))
 - There won't be any instructions for the knowledge from book, if you puzzled, you should jump into the communities(like [Stack Overflow](https://stackoverflow.com/)) to solve your problem, or just review the books.
-
+- (Only for Chinese Coder)An official solution manual may could help solve your problem, [here](./src/C++_Primer_Workbook_5th_Ed.\(Chinese_Edition\).pdf) is a shared version from the Internet. If you think it really helps you, you could buy the e-book or paper book.
 # Compiler Requirements
 
 - GCC 4.9+
