@@ -1,6 +1,6 @@
 # Introduction
 
-![](https://img.shields.io/badge/license-Apache%202.0-blue)
+![](https://img.shields.io/badge/license-Apache--2.0-blue)
 
 Personal solutions for C++ Primer 5th edition exercises, basically cover the 95% exercise. Only some ambiguous and superfluous ones has been left. All the source codes and answers were put into the markdown file. For each chapter and its exercises, only use the actual knowledge and skill, so there won't be any advance abilities requirement for present code. Also, some header files and data could be found in the corresponding directory.
 
