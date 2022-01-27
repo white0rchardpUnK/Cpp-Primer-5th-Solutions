@@ -45,7 +45,7 @@ If you have better solution for any solved exercise, or reasonable answer for an
 
 # License
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[Apache-2.0 License](./LICENSE.txt)
 
 # Recommendations
 
